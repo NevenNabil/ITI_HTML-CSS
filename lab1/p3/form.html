@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+    
+        <style>
+            body{
+                height: 3000px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1>Registration Form</h1>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="uname">User name:</label>
+            <input type="text" id="uname" name="uname"><br><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass"><br><br>
+
+            <label for="track">Track:</label>
+            <select id="track" name="tracks">
+                <option value="bi">BI</option>
+                <option value=".net">Dot Net</option>
+                <option value="java">Java</option>
+                <option value="marketing">Marketing</option>
+              </select><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="Male">
+            <label for="html">Male</label>
+            <input type="radio" id="gender" name="gender" value="Female">
+            <label for="html">Female</label><br><br>
+
+            <label for="favourites">Favourites:</label>
+            <input type="checkbox" id="football" name="football" value="football">
+            <label for="football">football</label>
+            <input type="checkbox" id="basketball" name="basketball" value="basketball">
+            <label for="basketball">basketball</label>
+            <input type="checkbox" id="games" name="games" value="games">
+            <label for="games">games</label>
+            <input type="checkbox" id="reading" name="reading" value="reading">
+            <label for="reading">reading</label>
+            <input type="checkbox" id="swimming" name="swimming" value="swimming">
+            <label for="swimming">swimming</label>
+            <input type="checkbox" id="travel" name="travel" value="travel">
+            <label for="travel">travel</label><br><br>
+            <label for="describtion">Describtion:</label><br>
+            <textarea rows="9" cols="70"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="Reset" value="Reset"><br><br>
+            
+            <input type="button" onclick="alert('Choose File!')" value="Choose File"> 
+            <label for="file">No file chosen</label>
+
+        </form> 
+    </body>
+
+
+</html>
